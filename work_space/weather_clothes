@@ -1,0 +1,14 @@
+weather = gets.chomp.downcase
+
+if weather == "sunny"
+puts "wear a t-shirt"
+
+elsif weather == "raining"
+puts "wear a raincoat"
+
+elsif weather == "snowing"
+puts "wear a snowsuit"
+
+else
+puts "wear whatever"
+end
